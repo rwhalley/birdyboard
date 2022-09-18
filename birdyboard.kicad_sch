@@ -1908,10 +1908,10 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 257.81 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 3bced514-7c6a-4929-a2f4-97c9dfd34def)
-    (property "Reference" "J8" (id 0) (at 259.08 128.27 0))
-    (property "Value" "AS5047_Adapter_Board_Connector" (id 1) (at 259.08 130.81 0))
+    (property "Reference" "J8" (id 0) (at 265.43 128.27 0))
+    (property "Value" "AS5047_Adapter_Board_Connector" (id 1) (at 265.43 130.81 0))
     (property "Footprint" "" (id 2) (at 257.81 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
