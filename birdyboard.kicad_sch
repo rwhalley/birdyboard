@@ -4389,10 +4389,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "ENC_CS_1" (shape output) (at 207.01 132.715 0) (fields_autoplaced)
+  (global_label "ENC_CS_1_Muxed" (shape output) (at 207.01 132.715 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 910c401c-42ad-4b8a-8d9f-6d9838a6e13c)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 218.7969 132.6356 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 225.6307 132.6356 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -5216,7 +5216,7 @@
   (symbol (lib_name "+3.3V_1") (lib_id "power:+3.3V") (at 50.8 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1968f49d-c12c-4cd8-84b6-5a09f3a03fc0)
-    (property "Reference" "#PWR?" (id 0) (at 50.8 132.715 0)
+    (property "Reference" "#PWR0102" (id 0) (at 50.8 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 50.8 123.825 0))
@@ -7254,7 +7254,7 @@
   (symbol (lib_id "power:+3.3V") (at 41.91 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eda659b2-1925-4ab5-9f1a-b47d20317b89)
-    (property "Reference" "#PWR?" (id 0) (at 41.91 132.715 0)
+    (property "Reference" "#PWR0101" (id 0) (at 41.91 132.715 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 41.91 123.825 0))
@@ -7621,11 +7621,11 @@
     (path "/2395f814-fa76-4c34-8726-22f101267253"
       (reference "#PWR078") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1968f49d-c12c-4cd8-84b6-5a09f3a03fc0"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/eda659b2-1925-4ab5-9f1a-b47d20317b89"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/1968f49d-c12c-4cd8-84b6-5a09f3a03fc0"
+      (reference "#PWR0102") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/fa1d0df7-b404-4cc1-bb33-a02815905db3"
       (reference "C1") (unit 1) (value "10uF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
